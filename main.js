@@ -8,8 +8,8 @@ program
   .requiredOption("-i, --input <path>", "Input JSON file")
   .option("-o, --output <path>", "Output file")
   .option("-d, --display", "Display result in console")
-  .option("-m, --mfo", "Show MFO code before bank name")
-  .option("-n, --normal", "Show only banks with COD_STATE = 1");
+  .option("-m, --mfo", "Show MFO  code before bank name")
+  .option("-n, --normal", " Show only banks with COD_STATE = 1");
 
 program.parse(process.argv);
 const options = program.opts();
